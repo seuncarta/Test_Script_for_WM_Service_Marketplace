@@ -1,0 +1,27 @@
+{
+  "name": "test_script_for_wm_service_marjetplace",
+  "version": "1.0.0",
+  "description": "This is a project for writing automated test script for the WM Service Marketplace \r Using the Selenium Tool using Javascript Mocha FrameWork.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-timeouts --parallel --reporter mochawesome --require mochawesome/register --reporter-options reportDir=testReports, reportFilename=testReport"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Nigeria-Development-Foundation/Test_Script_for_WM_Service_Marketplace.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Nigeria-Development-Foundation/Test_Script_for_WM_Service_Marketplace/issues"
+  },
+  "homepage": "https://github.com/The-Nigeria-Development-Foundation/Test_Script_for_WM_Service_Marketplace#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chromedriver": "^111.0.0",
+    "geckodriver": "^3.2.0",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.8.1"
+  }
+}
