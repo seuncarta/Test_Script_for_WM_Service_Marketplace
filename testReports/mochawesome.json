@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-03-20T08:45:47.881Z",
-    "end": "2023-03-20T08:46:16.691Z",
-    "duration": 28810,
+    "start": "2023-03-20T13:13:45.279Z",
+    "end": "2023-03-20T13:13:57.427Z",
+    "duration": 12148,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "64863158-cfcc-4cd4-9fc3-0408809b0d8e",
+      "uuid": "8b0ef7b2-8291-47e1-a10d-2235453879f4",
       "title": "",
       "fullFile": "C:\\Users\\corep\\Desktop\\Testing\\Test_Script_for_WM_Service_Marketplace\\TestSuite2\\testScript1.js",
       "file": "\\TestSuite2\\testScript1.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "27841961-677a-4267-bcfc-9351c0471c0e",
+          "uuid": "9634111e-40b2-4790-8e2e-e0713acfd8b5",
           "title": "Click Button After Signing In",
           "fullFile": "C:\\Users\\corep\\Desktop\\Testing\\Test_Script_for_WM_Service_Marketplace\\TestSuite2\\testScript1.js",
           "file": "\\TestSuite2\\testScript1.js",
@@ -36,7 +36,7 @@
               "title": "\"before each\" hook in \"Click Button After Signing In\"",
               "fullTitle": "Click Button After Signing In \"before each\" hook in \"Click Button After Signing In\"",
               "timedOut": null,
-              "duration": 732,
+              "duration": 618,
               "state": null,
               "speed": null,
               "pass": false,
@@ -45,7 +45,7 @@
               "context": null,
               "code": "// Create a new Selenium driver before each test\ndriver = await new Builder().forBrowser('chrome').build();",
               "err": {},
-              "uuid": "9637299e-1ad3-4076-9598-65eb04284060",
+              "uuid": "f1162eda-e01c-44cf-8d0e-b8a83bb9ca55",
               "parentUUID": null,
               "isHook": true,
               "skipped": false
@@ -57,16 +57,16 @@
               "title": "should sign in and click the button",
               "fullTitle": "Click Button After Signing In should sign in and click the button",
               "timedOut": null,
-              "duration": 27690,
+              "duration": 11137,
               "state": "passed",
               "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "// Navigate to the sign in page\nawait driver.get('https://wmservicemp.thewealthmarket.com/#/authentication/signin');\n// Fill in the sign in form\nawait driver.findElement(By.xpath('/html/body/app-root/div[1]/app-authentication/app-signin/div/div/div/div/form/div[1]/div/div[1]/div/input')).sendKeys('admin@thewealthmarket.com');\nawait driver.findElement(By.xpath('/html/body/app-root/div[1]/app-authentication/app-signin/div/div/div/div/form/div[1]/div/div[2]/div/input')).sendKeys('admin', Key.RETURN);\n// Wait for the home page to load\nawait driver.wait(until.urlIs('https://wmservicemp.thewealthmarket.com/#/index'), 5000);\n// Click the button on the dashboard page\nconst button = await driver.findElement(By.xpath('/html/body/app-root/div[1]/div/app-header/header/nav/div[2]/ul/li[3]/a'));\nawait button.click();\n// // Assert that the button click triggered the expected action\n// const confirmationMessage = await driver.findElement(By.id('confirmation-message')).getText();\n// expect(confirmationMessage).to.equal('Button clicked successfully!');",
+              "code": "// Navigate to the sign in page\nawait driver.get('https://wmservicemp.thewealthmarket.com/#/authentication/signin');\n// Fill in the sign in form\nawait driver.findElement(By.xpath('/html/body/app-root/div[1]/app-authentication/app-signin/div/div/div/div/form/div[1]/div/div[1]/div/input')).sendKeys('admin@thewealthmarket.com');\nawait driver.findElement(By.xpath('/html/body/app-root/div[1]/app-authentication/app-signin/div/div/div/div/form/div[1]/div/div[2]/div/input')).sendKeys('admin', Key.RETURN);\n// Wait for the home page to load\nawait driver.wait(until.urlIs('https://wmservicemp.thewealthmarket.com/#/index'), 5000);\n// Click the book a service button on the page\nconst button = await driver.findElement(By.xpath('/html/body/app-root/div[1]/div/app-header/header/nav/div[2]/ul/li[3]/a'));\nawait button.click();\n// Click the book a service button on the page\n// const jobButton = await driver.findElement(By.xpath('/html/body/app-root/div[1]/div/app-header/header/nav/div[2]/ul/li[4]/a'));\n\n// await driver.executeScript(\"document.evaluate('/html/body/app-root/div[1]/div/app-header/header/nav/div[2]/ul/li[4]/a', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();\");\n// await jobButton.click();\n\n// // Find the customer dropdown list element and click on it\n// const dropdownList = await driver.findElement(By.xpath('/html/body/app-root/div[1]/div/app-header/header/nav/div[2]/ul/li[2]/a'));\n// await dropdownList.click();\n   \n// // Find the dashboard button element and click on it\n\n// const button = await driver.findElement(By.xpath('//*[@id=\"submenu\"]/li[1]/a'));\n// await driver.executeScript('arguments[0].scrollIntoView()', button);\n// await button.click();\n// // Assert that the page has loaded the expected content after clicking on the button\n// await driver.wait(until.urlIs('https://wmservicemp.thewealthmarket.com/#/customers/dashboard'), 5000);\n  \n// // Assert that the button click triggered the expected action\n// const confirmationMessage = await driver.findElement(By.id('confirmation-message')).getText();\n// expect(confirmationMessage).to.equal('Button clicked successfully!');",
               "err": {},
-              "uuid": "602f3010-cca0-4bb9-a291-05ea9320e4f4",
+              "uuid": "9117bdb1-9e39-4b72-b763-6e879dd8ad93",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -74,12 +74,12 @@
           ],
           "suites": [],
           "passes": [
-            "602f3010-cca0-4bb9-a291-05ea9320e4f4"
+            "9117bdb1-9e39-4b72-b763-6e879dd8ad93"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 27690,
+          "duration": 11137,
           "root": false,
           "rootEmpty": false,
           "_timeout": null
