@@ -3,11 +3,11 @@ Using the Selenium Tool using Javascript Mocha FrameWork.
 
 Users:
 
+Username: Rainbow
+Password:createaccount
 
-
-
-
-
+Username: Michaelajiri@gmail.com
+Password: demo
 
 username: admin@thewealthmarket.com
 Password: admin
@@ -79,8 +79,3 @@ S/N		Feature	Test Case
 
 
 
-Username: Rainbow
-Password:createaccount
-
-Username: Michaelajiri@gmail.com
-Password: demo
