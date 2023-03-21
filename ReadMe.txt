@@ -76,3 +76,11 @@ S/N		Feature	Test Case
 		5	verify when a user tries to apply for a job without signing in	
 				
 	Test Suite 9	Admin Side		Ruemu & Seun
+
+
+
+Username: Rainbow
+Password:createaccount
+
+Username: Michaelajiri@gmail.com
+Password: demo

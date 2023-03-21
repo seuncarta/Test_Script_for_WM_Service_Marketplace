@@ -62,9 +62,30 @@ describe('Click Button After Signing In', () => {
     // Wait for the home page to load
     await driver.wait(until.urlIs('https://wmservicemp.thewealthmarket.com/#/index'), 5000);
 
-    // Click the button on the dashboard page
+    // Click the book a service button on the page
     const button = await driver.findElement(By.xpath('/html/body/app-root/div[1]/div/app-header/header/nav/div[2]/ul/li[3]/a'));
     await button.click();
+    // Click the book a service button on the page
+    // const jobButton = await driver.findElement(By.xpath('/html/body/app-root/div[1]/div/app-header/header/nav/div[2]/ul/li[4]/a'));
+
+
+    // await driver.executeScript("document.evaluate('/html/body/app-root/div[1]/div/app-header/header/nav/div[2]/ul/li[4]/a', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();");
+    // await jobButton.click();
+
+
+    // // Find the customer dropdown list element and click on it
+    // const dropdownList = await driver.findElement(By.xpath('/html/body/app-root/div[1]/div/app-header/header/nav/div[2]/ul/li[2]/a'));
+    // await dropdownList.click();
+   
+    // // Find the dashboard button element and click on it
+    
+    // const button = await driver.findElement(By.xpath('//*[@id="submenu"]/li[1]/a'));
+    // await driver.executeScript('arguments[0].scrollIntoView()', button);
+    // await button.click();
+
+    // // Assert that the page has loaded the expected content after clicking on the button
+    // await driver.wait(until.urlIs('https://wmservicemp.thewealthmarket.com/#/customers/dashboard'), 5000);
+  
 
     // // Assert that the button click triggered the expected action
     // const confirmationMessage = await driver.findElement(By.id('confirmation-message')).getText();
