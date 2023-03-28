@@ -15,6 +15,12 @@ Password: admin
 username: seuncarta@gmail.com
 Password: Economicedu
 
+Username: Rainbow
+Password:createaccount
+
+Username: Michaelajiri@gmail.com
+Password: demo
+
 Below are the explanation for each test suite and who worked on each test suite.
 
 S/N		Feature	Test Case	
