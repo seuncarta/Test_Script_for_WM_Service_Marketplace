@@ -2,6 +2,13 @@ This is a project for writing automated test script for the WM Service Marketpla
 Using the Selenium Tool using Javascript Mocha FrameWork.
 
 Users:
+
+Username: Rainbow
+Password:createaccount
+
+Username: Michaelajiri@gmail.com
+Password: demo
+
 username: admin@thewealthmarket.com
 Password: admin
 
