@@ -65,6 +65,8 @@ describe('Click Button After Signing In', () => {
     // Click the book a service button on the page
     const button = await driver.findElement(By.xpath('/html/body/app-root/div[1]/div/app-header/header/nav/div[2]/ul/li[3]/a'));
     await button.click();
+
+    
     // Click the book a service button on the page
     // const jobButton = await driver.findElement(By.xpath('/html/body/app-root/div[1]/div/app-header/header/nav/div[2]/ul/li[4]/a'));
 
