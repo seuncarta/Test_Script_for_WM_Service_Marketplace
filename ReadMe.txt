@@ -41,7 +41,7 @@ S/N		Feature	Test Case
 	Test Suite 4	Book a service		Seun
 		1	Verify if the filtering in the book a service page is working	
 		2	Verify that the list of the service is displaying	
-		3	Verify that the details of a service can be viewed	"	"
+		3	Verify that the details of a service can be viewed
 		4	verify that that service can be booked	
 		5	Verify response when a user tries to book a service without signing in	
 				
